@@ -1,0 +1,4 @@
+# podstawowe komendy gita
+
+git config --global user.name "Dawid Pelka"
+git config --global user.name dawid.software.tester@gmail.com

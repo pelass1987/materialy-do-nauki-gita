@@ -2,3 +2,4 @@
 
 git config --global user.name "Dawid Pelka"
 git config --global user.name dawid.software.tester@gmail.com
+git config -- list (wyœwietla listê wszystkich aktualnych ustawieñ)

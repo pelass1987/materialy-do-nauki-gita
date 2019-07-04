@@ -2,4 +2,14 @@
 
 git config --global user.name "Dawid Pelka"
 git config --global user.name dawid.software.tester@gmail.com
-git config -- list (wyœwietla listê wszystkich aktualnych ustawieñ)
+git config -- list (wyÅ“wietla listÃª wszystkich aktualnych ustawieÃ±)
+
+# Dodawanie pliku do gita, Å‚Ä…czenie z repo i push do repo
+
+echo "# testowe-repozytorium" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/pelass1987/testowe-repozytorium.git
+git push -u origin master
+
